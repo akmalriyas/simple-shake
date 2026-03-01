@@ -2,14 +2,22 @@
 
 SimpleShake is a lightweight, highly optimized camera shake module for Roblox. It provides preset shake profiles and allows developers to create custom shakes with minimal math. Designed for client use and easy plug and play integration.
 
+🎮 [Download the module from the Roblox library](https://create.roblox.com/store/asset/80239511098516/SimpleShakeCamera-Shake-Module)
+
+🔗 [View on GitHub](https://github.com/akmalriyas/simple-shake/tree/main)
+
+📝 [Roblox DevForum](https://devforum.roblox.com/t/simple-shake-easy-camera-shake-module/4457496)
+
+
+
 <details>
 <summary><strong>Features</strong></summary>
 
-- ✅ Preset shake profiles for common scenarios (explosions, footsteps, recoil, etc.)
-- ✅ Customizable shake profiles with amplitude, frequency, duration, and fade settings
-- ✅ Auto-managed render loop that binds/unbinds depending on active shakes
-- ✅ Smooth fade-in and fade-out transitions
-- ✅ Simple API for playing/stopping shakes
+-  Preset shake profiles for common scenarios (explosions, footsteps, recoil, etc.)
+-  Customizable shake profiles with amplitude, frequency, duration, and fade settings
+-  Auto-managed render loop that binds/unbinds depending on active shakes
+-  Smooth fade-in and fade-out transitions
+-  Simple API for playing/stopping shakes
 
 </details>
 
@@ -132,13 +140,6 @@ Immediately begins fade-out for all active shakes.
 - The module binds to `RunService.RenderStepped` automatically and unbinds when no shakes are active.
 - Camera is manipulated directly, so ensure your scripts run on the client.
 - The shake math uses Perlin noise for smooth, natural movement.
-
-</details>
-
-<details>
-<summary><strong>License</strong></summary>
-
-Feel free to use and modify this module for your own projects. Attribution is appreciated but not required.
 
 </details>
 
